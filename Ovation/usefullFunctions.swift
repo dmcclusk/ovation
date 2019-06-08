@@ -34,4 +34,9 @@ class UsefullFunctions {
         return strArray
     }
     
+    static func SplitFilename(path str: String) -> (String) {
+        let url = URL(fileURLWithPath: str)
+        return ("\(url.deletingPathExtension().lastPathComponent).\(url.pathExtension)")
+    }
+    
 }

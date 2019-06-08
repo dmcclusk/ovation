@@ -50,14 +50,10 @@ class newViewController: UIViewController {
         
         dateModified.text = "Date Modified: \(fetchedResults.dateModified)"
         
-        ImageName.text = splitFilename(str: fetchedResults.productImage)
+        ImageName.text = UsefullFunctions.SplitFilename(path: fetchedResults.productImage)
     }
     
     
-    func splitFilename(str: String) -> (String) {
-        let url = URL(fileURLWithPath: str)
-        return ("\(url.deletingPathExtension().lastPathComponent).\(url.pathExtension)")
-    }
 
     /*
     // MARK: - Navigation
