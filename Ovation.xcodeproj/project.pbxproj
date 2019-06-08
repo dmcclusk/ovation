@@ -15,6 +15,8 @@
 		8052D1FB22A158EA005E0048 /* Ovation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052D1FA22A158EA005E0048 /* Ovation.swift */; };
 		80FB791422A1A81900EFA256 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FB791322A1A81900EFA256 /* detailViewController.swift */; };
 		80FB791A22A1B3C700EFA256 /* rootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FB791922A1B3C700EFA256 /* rootTableViewController.swift */; };
+		80FD1A6422AC46C500981E89 /* usefullFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD1A6322AC46C500981E89 /* usefullFunctions.swift */; };
+		80FD444422AA977400C210D9 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FD444322AA977400C210D9 /* newViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		80FB790C22A187DD00EFA256 /* Ovation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ovation.entitlements; sourceTree = "<group>"; };
 		80FB791322A1A81900EFA256 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		80FB791922A1B3C700EFA256 /* rootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootTableViewController.swift; sourceTree = "<group>"; };
+		80FD1A6322AC46C500981E89 /* usefullFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usefullFunctions.swift; sourceTree = "<group>"; };
+		80FD444322AA977400C210D9 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +70,13 @@
 				8052D1EC22A15736005E0048 /* Main.storyboard */,
 				80FB791922A1B3C700EFA256 /* rootTableViewController.swift */,
 				80FB791322A1A81900EFA256 /* detailViewController.swift */,
+				80FD1A6322AC46C500981E89 /* usefullFunctions.swift */,
 				8052D1EF22A15738005E0048 /* Assets.xcassets */,
 				8052D1F122A15738005E0048 /* LaunchScreen.storyboard */,
 				8052D1F422A15738005E0048 /* Info.plist */,
 				8052D1FA22A158EA005E0048 /* Ovation.swift */,
 				8007064822A3BAB1009A7684 /* stringExtensions.swift */,
+				80FD444322AA977400C210D9 /* newViewController.swift */,
 			);
 			path = Ovation;
 			sourceTree = "<group>";
@@ -152,10 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8052D1FB22A158EA005E0048 /* Ovation.swift in Sources */,
+				80FD1A6422AC46C500981E89 /* usefullFunctions.swift in Sources */,
 				8007064922A3BAB1009A7684 /* stringExtensions.swift in Sources */,
 				8052D1E922A15736005E0048 /* AppDelegate.swift in Sources */,
 				80FB791A22A1B3C700EFA256 /* rootTableViewController.swift in Sources */,
 				80FB791422A1A81900EFA256 /* detailViewController.swift in Sources */,
+				80FD444422AA977400C210D9 /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

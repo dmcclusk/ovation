@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 //
 extension String {
@@ -33,3 +34,4 @@ extension String
         return self.trimmingCharacters(in: NSCharacterSet.whitespaces)
     }
 }
+
